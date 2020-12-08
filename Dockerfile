@@ -1,6 +1,6 @@
 FROM node:15.3.0-buster-slim
 
-LABEL description="Docusaurus v2 for docker on Node 15"
+LABEL description="Docusaurus v2 for docker on Node 15, using Debian as base image."
 
 RUN apt-get update -y &&\
     apt-get install nano -y &&\
